@@ -21,7 +21,7 @@ public class UniqueWordsTest {
         for (String word : allWordsSorted) {
             uniqueWordsWithCount.add(word + " - " + Collections.frequency(allWordsSorted, word) + " раз");
         }
-        System.out.println(uniqueWordsWithCount.toString());
+        System.out.println(uniqueWordsWithCount);
 
     }
 }
